@@ -13,5 +13,6 @@ cargo install \
 chsh -s "/usr/bin/nu"
 
 nu_config_dir="$HOME/.config/nushell"
+mkdir -p "$nu_config_dir"
 cp "$script_dir/config.nu" "$nu_config_dir"
 cp "$script_dir/env.nu" "$nu_config_dir"
